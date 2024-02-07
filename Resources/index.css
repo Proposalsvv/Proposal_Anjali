@@ -1,0 +1,55 @@
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.pexels.com/photos/2008136/pexels-photo-2008136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:max-content;
+}
+#container {
+    background-color: rgba(255, 255, 255, 0.671); /* Background color of the box */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+    text-align: center;
+    max-width: 50%; /* Maximum width of the box */
+    max-height: 100%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    /* Center the box horizontally */
+}
+
+#Question, #SecondQuestion {
+    color: black; /* Color of the text */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#Question
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#yes, #no {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  border-radius : 5px;
+}
+.move-button {
+    transition: transform 0.5s ease; /* Smooth transition for button movement */
+}
+
+/* Disable button when moving */
+.disabled {
+    pointer-events: none; /* Disable pointer events */
+    opacity: 0.5; /* Reduce opacity to visually indicate disabled state */
+}
